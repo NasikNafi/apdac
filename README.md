@@ -1,7 +1,7 @@
 # Attention-based Partially Decoupled Actor-Critic (APDAC)
 
 This repository contains the code for the following paper presented at the Deep RL Workshop, NeurIPS 2021:\
-*[Attention-based Partial Decoupling of Policy and Value for Generalization in Reinforcement Learning](http://idl.iscram.org/files/nasikmuhammadnafi/2020/2279_NasikMuhammadNafi_etal2020.pdf)*.
+*[Attention-based Partial Decoupling of Policy and Value for Generalization in Reinforcement Learning](https://kdd.cs.ksu.edu/Publications/Conference/nafi2021attention.pdf)*.
 
 
 # Citation
