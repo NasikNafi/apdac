@@ -24,6 +24,8 @@ pip install -r requirements.txt
 
 pip install procgen
 
+pip install protobuf==3.20.0
+
 git clone https://github.com/openai/baselines.git
 cd baselines 
 python setup.py install 

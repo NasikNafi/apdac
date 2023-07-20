@@ -264,8 +264,8 @@ class ResNetBaseWithAttn(NNBase):
 
         layers.append(AttnBlock(in_channels))
         layers.append(Conv2d_tf(in_channels, out_channels, kernel_size=3, stride=1))
-        layers.append(AttnBlock(out_channels))
         layers.append(nn.MaxPool2d(kernel_size=3, stride=2, padding=1))
+        layers.append(AttnBlock(out_channels))
         
         layers.append(BasicBlockWithAttn(out_channels))
         layers.append(BasicBlockWithAttn(out_channels))
